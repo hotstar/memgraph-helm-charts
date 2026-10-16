@@ -1,0 +1,9 @@
+name: Git AI
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  git-ai:
+    uses: hotstar/hotstar-github-action-workflows/.github/workflows/hotstar-git-ai-workflow.yml@main
